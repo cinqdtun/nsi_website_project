@@ -3,7 +3,8 @@
     <head>
         <script src="scripts/index.js"></script>
         <meta charset="UTF-8">
-        <title>My projects</title>
+        <title>Projects - 5dt1</title>
+        <link rel="icon" type="image/png" href="/img/head_profile_picture.png">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,16 +12,19 @@
     </head>
     <body>
         <div class="header">
-            <h1 id="page-title" class="default-text centered">Ma page internet</h1>
+            <h1 id="page-title" class="default-text centered">Mes Repositories</h1>
             <div class="nav-container">
-                <li class="default-text submenu" ><a href="#first-project">Youtube Music Downloader</a></li>
-                <li class="default-text submenu"><a href="#second-project">Site Web</a></li>
-                <li class="default-text submenu"><a href="#third-project">The Titan Bot</a></li>
-                <li class="default-text submenu"><a href="#last-project">ESM</a></li>
+                <li class="default-text submenu" ><a class="link-submenu" href="#first-project">Youtube Music Downloader</a></li>
+                <li class="default-text submenu"><a class="link-submenu" href="#second-project">Site Web</a></li>
+                <li class="default-text submenu"><a class="link-submenu" href="#third-project">The Titan Bot</a></li>
+                <li class="default-text submenu"><a class="link-submenu" href="#last-project">ESM</a></li>
+            </div>
+            <div class="right-header-div">
+                <a class="right-header-btn default-text" href="about.html">About</a>
             </div>
 
         </div>
-        <div id="enhanced-project-container">
+        <div class="enhanced-project-container">
             <div id="first-project" class="project-container left-container">
                 <div class="image-paragraph-div">
                     <div>
@@ -28,99 +32,139 @@
                         <img class="preview-project" src="https://opengraph.githubassets.com/7dec094f74cc56893c5f4df5f9ed25120cde5c987b02cd2aba4d1a8526d386c7/cinqdtun/youtube_music_app" alt="Youtube Music Downloader Project preview">
                     </div>
                     <div class="infos-div">
-                        <p class="default-text paragraph-project">Youtube Music Downloader est un logiciel spécialement conçu pour faciliter le téléchargement de musique depuis la plateforme Youtube Music. Ce logiciel vous permet de récupérer vos morceaux préférés au format .mp3, vous offrant ainsi la possibilité de les écouter hors ligne et de les transférer sur différents appareils.</p>
+                        <p class="default-text paragraph-project-left">Youtube Music Downloader est un logiciel spécialement conçu pour faciliter le téléchargement de musique depuis la plateforme Youtube Music. Ce logiciel vous permet de récupérer vos morceaux préférés au format .mp3, vous offrant ainsi la possibilité de les écouter hors ligne et de les transférer sur différents appareils.</p>
                         <div class="stats-link-projects">
-                            <div class="tag">
-                                <svg class="language-dot color-javascript" width="15" height="15">
-                                    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"/>
-                                </svg>
-                                <span class="default-text language-text">Javascript</span>
+                            <div class="tags">
+                                <div class="tag">
+                                    <svg class="language-dot color-javascript" width="15" height="15">
+                                        <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"/>
+                                    </svg>
+                                    <span class="default-text language-text">Javascript</span>
+                                </div>
+                                <div class="tag">
+                                    <svg class="language-dot color-css" width="15" height="15">
+                                        <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
+                                    </svg>
+                                        <span class="default-text language-text">CSS</span>
+                                    </div>
+                                    <div class="tag">
+                                        <svg class="language-dot color-HTML" width="15" height="15">
+                                            <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
+                                        </svg>
+                                        <span class="default-text language-text">HTML</span>
+                                    </div>
+                                </div>
+                                <div id="github-project-1-btn" class="view-on-github-btn-left">
+                                    <p class="view-on-github-text default-text">View on Github</p>
+                                    <img class="view-on-github-logo" src="img/view_on_github_img.png" alt="View on Github">
+                                </div>
                             </div>
-                            <div class="tag">
-                                <svg class="language-dot color-css" width="15" height="15">
-                                    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
-                                </svg>
-                                <span class="default-text language-text">CSS</span>
-                            </div>
-                            <div class="tag">
-                                <svg class="language-dot color-HTML" width="15" height="15">
-                                    <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
-                                </svg>
-                                <span class="default-text language-text">HTML</span>
-                            </div>
-                            <img id="github-project-1-btn" class="view-on-github-btn" src="img/view_on_github_img.png" alt="View on Github">
-                        </div>
                     </div>
                 </div>
             </div>
-            <div class="filler-shape"></div>
+            <div id="shape-1" class="filler-shape-right"></div>
         </div>
-        <div id="second-project" class="project-container right-container">
-            <div class="image-paragraph-div">
-                <div class="infos-div">
-                    <p class="default-text paragraph-project">Le projet réalisé en NSI (Numérique et Sciences Informatiques) était axé sur la création d'un site web statique qui devait correspondre à celui-ci. Dans le cadre de ce projet, nous avons conçu et développé un site web avec des pages HTML, CSS et éventuellement du JavaScript, en mettant l'accent sur la structure et la mise en page du site. Nous avons pris en compte les principes de conception et d'ergonomie pour garantir une expérience utilisateur optimale. Tout au long du processus, nous avons veillé à ce que le site réponde aux spécifications requises et reflète les objectifs du projet en NSI.</p>
-                    <div class="stats-link-projects">
-                        <div class="tag">
-                            <svg class="language-dot color-css" width="15" height="15">
-                                <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
-                            </svg>
-                            <span class="default-text language-text">CSS</span>
+        <div class="enhanced-project-container">
+            <div id="shape-2" class="filler-shape-left"></div>
+            <div id="second-project" class="project-container right-container">
+                <div class="image-paragraph-div">
+                    <div class="infos-div">
+                        <p class="default-text paragraph-project-right">Le projet réalisé en NSI (Numérique et Sciences Informatiques) était axé sur la création d'un site web statique qui devait correspondre à celui-ci. Dans le cadre de ce projet, nous avons conçu et développé un site web avec des pages HTML, CSS et éventuellement du JavaScript, en mettant l'accent sur la structure et la mise en page du site. Nous avons pris en compte les principes de conception et d'ergonomie pour garantir une expérience utilisateur optimale. Tout au long du processus, nous avons veillé à ce que le site réponde aux spécifications requises et reflète les objectifs du projet en NSI.</p>
+                        <div class="stats-link-projects">
+                            <div class="tags">
+                                <div class="tag">
+                                    <svg class="language-dot color-css" width="15" height="15">
+                                        <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
+                                    </svg>
+                                    <span class="default-text language-text">CSS</span>
+                                </div>
+                                <div class="tag">
+                                    <svg class="language-dot color-HTML" width="15" height="15">
+                                        <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
+                                    </svg>
+                                    <span class="default-text language-text">HTML</span>
+                                </div>
+                            </div>
+                            <div id="github-project-2-btn" class="view-on-github-btn-right">
+                                <p class="view-on-github-text default-text">View on Github</p>
+                                <img class="view-on-github-logo" src="img/view_on_github_img.png" alt="View on Github">
+                            </div>
                         </div>
-                        <div class="tag">
-                            <svg class="language-dot color-HTML" width="15" height="15">
-                                <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
-                            </svg>
-                            <span class="default-text language-text">HTML</span>
-                        </div>
-                        <img id="github-project-2-btn" class="view-on-github-btn" src="img/view_on_github_img.png" alt="View on Github">
+                    </div>
+                    <div>
+                        <h2 class="default-subtitles default-text title-project">Projet site web (NSI)</h2>
+                        <img class="preview-project" src="https://opengraph.githubassets.com/7e56ee18807a651b8543aceb801fab8dbddcca52e873f7eeeabff3c5474fc670/cinqdtun/nsi_website_project" alt="NSI Website project preview">
                     </div>
                 </div>
-                <div>
-                    <h2 class="default-subtitles default-text title-project">Projet site web (NSI)</h2>
-                    <img class="preview-project" src="https://opengraph.githubassets.com/7e56ee18807a651b8543aceb801fab8dbddcca52e873f7eeeabff3c5474fc670/cinqdtun/nsi_website_project" alt="NSI Website project preview">
+            </div>
+        </div>
+        <div class="enhanced-project-container">
+            <div id="third-project" class="project-container left-container">
+                <div class="image-paragraph-div">
+                    <div>
+                        <h2 class="default-subtitles default-text title-project">The Titan Bot (Archived)</h2>
+                        <img class="preview-project" src="https://opengraph.githubassets.com/04deb7a2dc84e6d526575e0ae8ae2260c1f6f33c3d5b8aaef4ee22a82a2d5bda/cinqdtun/thetitanbot" alt="The Titan Bot project preview">
+                    </div>
+                    <div class="infos-div">
+                        <p class="default-text paragraph-project-left">The Titan Bot est un bot spécialement conçu pour faciliter la gestion des commandes de stuff sur mon serveur Discord dédié à Paladium, un serveur Minecraft. Ce bot a été programmé avec des fonctionnalités avancées pour permettre aux utilisateurs de passer des commandes liées à l'obtention d'objets, d'équipements et de ressources dans le jeu. En tant qu'outil essentiel, The Titan Bot automatise le processus de gestion des commandes de stuff, offrant ainsi une expérience fluide et efficace aux joueurs du serveur. Grâce à ses fonctionnalités personnalisables, il permet de gérer les demandes, d'attribuer les items souhaités aux joueurs et de suivre les transactions, contribuant ainsi à l'enrichissement de l'expérience de jeu sur le serveur Paladium.</p>
+                        <div class="stats-link-projects">
+                            <div class="tags">
+                                <div class="tag">
+                                    <svg class="language-dot color-javascript" width="15" height="15">
+                                        <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"/>
+                                    </svg>
+                                    <span class="default-text language-text">Javascript</span>
+                                </div>
+                            </div>
+                            <div id="github-project-3-btn" class="view-on-github-btn-left">
+                                <p class="view-on-github-text default-text">View on Github</p>
+                                <img class="view-on-github-logo" src="img/view_on_github_img.png" alt="View on Github">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div id="shape-3" class="filler-shape-right"></div>
         </div>
 
-        <div id="third-project" class="project-container left-container">
-            <div class="image-paragraph-div">
-                <div>
-                    <h2 class="default-subtitles default-text title-project">The Titan Bot (Archived)</h2>
-                    <img class="preview-project" src="https://opengraph.githubassets.com/04deb7a2dc84e6d526575e0ae8ae2260c1f6f33c3d5b8aaef4ee22a82a2d5bda/cinqdtun/thetitanbot" alt="The Titan Bot project preview">
-                </div>
-                <div class="infos-div">
-                    <p class="default-text paragraph-project">The Titan Bot est un bot spécialement conçu pour faciliter la gestion des commandes de stuff sur mon serveur Discord dédié à Paladium, un serveur Minecraft. Ce bot a été programmé avec des fonctionnalités avancées pour permettre aux utilisateurs de passer des commandes liées à l'obtention d'objets, d'équipements et de ressources dans le jeu. En tant qu'outil essentiel, The Titan Bot automatise le processus de gestion des commandes de stuff, offrant ainsi une expérience fluide et efficace aux joueurs du serveur. Grâce à ses fonctionnalités personnalisables, il permet de gérer les demandes, d'attribuer les items souhaités aux joueurs et de suivre les transactions, contribuant ainsi à l'enrichissement de l'expérience de jeu sur le serveur Paladium.</p>
-                    <div class="stats-link-projects">
-                        <div class="tag">
-                            <svg class="language-dot color-javascript" width="15" height="15">
-                                <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"/>
-                            </svg>
-                            <span class="default-text language-text">Javascript</span>
+        <div class="enhanced-project-container last-element">
+            <div id="shape-4" class="filler-shape-left"></div>
+            <div id="last-project" class="project-container right-container">
+                <div class="image-paragraph-div">
+                    <div class="infos-div">
+                        <p class="default-text paragraph-project-right">ESM (Enhanced Skyblock Mod) est un mod spécialement conçu pour enrichir l'expérience de jeu dans Hypixel Skyblock. Ce mod apporte un large éventail de fonctionnalités qui ne sont généralement pas disponibles dans d'autres mods existants. Avec ESM, les joueurs peuvent profiter de nouvelles fonctionnalités exclusives et uniques qui ne sont pas proposées dans d'autres mods pour Hypixel Skyblock. Ce mod est en constante évolution et continue d'être développé pour offrir des mises à jour régulières avec de nouvelles fonctionnalités passionnantes. Il vise à offrir aux joueurs de nouvelles opportunités et des éléments de jeu uniques qui rendent leur expérience dans Hypixel Skyblock encore plus captivante et divertissante.</p>
+                        <div class="stats-link-projects">
+                            <div class="tags">
+                                <div class="tag">
+                                    <svg class="language-dot color-java" width="15" height="15">
+                                        <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
+                                    </svg>
+                                    <span class="default-text language-text">Java</span>
+                                </div>
+                            </div>
+                            <div id="github-project-4-btn" class="view-on-github-btn-right">
+                                <p class="view-on-github-text default-text">View on Github</p>
+                                <img class="view-on-github-logo" src="img/view_on_github_img.png" alt="View on Github">
+                            </div>
                         </div>
-                        <img id="github-project-3-btn" class="view-on-github-btn" src="img/view_on_github_img.png" alt="View on Github">
+                    </div>
+                    <div>
+                        <h2 class="default-subtitles default-text title-project">ESM (Coming Soon)</h2>
+                        <img class="preview-project" src="https://opengraph.githubassets.com/cb5f7bdcf574f187c429d72950a8362091e038f356e73b3e0e621d81b6e59e2c/cinqdtun/ESM" alt="ESM mod project preview">
                     </div>
                 </div>
             </div>
         </div>
-
-        <div id="last-project" class="project-container right-container">
-            <div class="image-paragraph-div">
-                <div class="infos-div">
-                    <p class="default-text paragraph-project">ESM (Enhanced Skyblock Mod) est un mod spécialement conçu pour enrichir l'expérience de jeu dans Hypixel Skyblock. Ce mod apporte un large éventail de fonctionnalités qui ne sont généralement pas disponibles dans d'autres mods existants. Avec ESM, les joueurs peuvent profiter de nouvelles fonctionnalités exclusives et uniques qui ne sont pas proposées dans d'autres mods pour Hypixel Skyblock. Ce mod est en constante évolution et continue d'être développé pour offrir des mises à jour régulières avec de nouvelles fonctionnalités passionnantes. Il vise à offrir aux joueurs de nouvelles opportunités et des éléments de jeu uniques qui rendent leur expérience dans Hypixel Skyblock encore plus captivante et divertissante.</p>
-                    <div class="stats-link-projects">
-                        <div class="tag">
-                            <svg class="language-dot color-java" width="15" height="15">
-                                <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z" />
-                            </svg>
-                            <span class="default-text language-text">Java</span>
-                        </div>
-                        <img id="github-project-4-btn" class="view-on-github-btn" src="img/view_on_github_img.png" alt="View on Github">
-                    </div>
-                </div>
-                <div>
-                    <h2 class="default-subtitles default-text title-project">ESM (Coming Soon)</h2>
-                    <img class="preview-project" src="https://opengraph.githubassets.com/cb5f7bdcf574f187c429d72950a8362091e038f356e73b3e0e621d81b6e59e2c/cinqdtun/ESM" alt="ESM mod project preview">
-                </div>
+        <div id="footer">
+            <div id="left-footer-infos">
+                <p class="default-text">Cinq dtun </p>
+                <p id="address" class="default-text">1 rue du Faubourg 75001 Paris </p>
+            </div>
+            <div id="right-footer-infos">
+                <p id="phone-number" class="default-text">+33 6 37 89 40 01 </p>
+                <!--Ce lien permet d'ouvrir le client mail par défaut de l'utilisateur avec l'adresse mail pré-remplie. /!\ Fonctionne au moins pour windows-->
+                <!-- Si tu pass par la oui, cette email est valide, tu peux m'envoyer un mail si tu veux, je te répondrai avec plaisir :)-->
+                <a id="contact-mail" class="default-text" href="mailto:contact@5dt1.com">contact@5dt1.com</a>
             </div>
         </div>
     </body>

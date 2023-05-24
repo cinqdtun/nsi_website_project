@@ -1,0 +1,6 @@
+EASTERS EGGS
+
+To access to Easters eggs you need to :
+1.	Go into chrome devtools by clicking with the right button of your mouse and then click on inspect
+2.	Type secrets code in the console prompt ‘IlOvEeAtPoTaToEs’ or 'Iamanidiot'
+3.	Enjoy the easter egg !!!

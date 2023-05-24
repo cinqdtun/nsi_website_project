@@ -152,7 +152,7 @@ a:visited {
 }
 
 .view-on-github-btn-left{
-    padding: 10px;
+    padding: 5px 5px 5px 10px;
     width: 160px;
     margin-left: 25px;
     display: flex;
@@ -162,7 +162,7 @@ a:visited {
 }
 
 .view-on-github-btn-right{
-    padding: 10px;
+    padding: 5px 5px 5px 10px;
     width: 160px;
     margin-right: 25px;
     display: flex;
@@ -177,12 +177,13 @@ a:visited {
 }
 
 .view-on-github-logo{
-    padding-left: 10px;
-    height: 35px;
+    padding-left: 5px;
+    height: 40px;
 }
 
 .view-on-github-text{
     margin: 0;
+    white-space: nowrap;
 }
 
 .infos-div{
@@ -311,11 +312,50 @@ a:visited {
 
 .discord-logo{
     height: 30px;
+    margin-left: 10px;
 }
 
 .discord-server-btn{
+    display: flex;
+    align-items: center;
     background-color: #5865F2;
     height: 30px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
+}
+
+.discord-server-btn:hover{
+    background-color: #6e7ff2;
+    cursor: pointer;
+}
+
+.discord-btn-github-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    float: right;
+
+}
+
+.github-button-bundled{
+    margin: 0 0 0 10px;
+}
+
+#easters-egg-text{
+    margin: 0;
+    padding: 20px;
+}
+
+.download-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#download-link{
+    background-color: #11b000;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
 }

@@ -13,6 +13,9 @@ window.addEventListener('DOMContentLoaded', function() {
     document.querySelector("#github-project-4-btn").addEventListener('click', () =>{
         window.open('https://5dt1.com', "_blank");
     });
+    document.querySelector("#discord-button-esm").addEventListener('click', () =>{
+        window.open('https://esm.5dt1.com', "_blank");
+    });
 
     setTimeout(async () => {
         const elementsToFade = document.querySelectorAll('.left-container, .right-container');
@@ -25,4 +28,5 @@ window.addEventListener('DOMContentLoaded', function() {
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
+
 });
